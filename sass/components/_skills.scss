@@ -1,0 +1,18 @@
+.skills {
+  padding-top: 94px;
+  padding-bottom: 47px;
+  &__title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    &_distance {
+      margin-bottom: 10px;
+    }
+  }
+  &__description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    color: var(--description-color);
+  }
+}
