@@ -1,4 +1,4 @@
-.logo-footer {
+.footer__logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -7,7 +7,8 @@
   color: var(--accent-color);
   display: inline-block;
   margin-bottom: 20px;
-}
-.logo-colorwhite {
+  &_white {
   color: var(--color-hero-title);
 }
+}
+

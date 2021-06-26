@@ -1,4 +1,8 @@
-.address-link {
+.footer__address {
+  font-style: normal;
+}
+
+.footer__link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -13,12 +17,12 @@
   }
 }
 
-.address-list-item:not(:last-child) {
+.footer__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.address-email,
-.address-phone {
+.footer__email,
+.footer__phone {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;

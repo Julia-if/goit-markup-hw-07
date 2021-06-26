@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
 }
-.menu__element:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 60px;
 }
 
@@ -20,7 +20,7 @@
   &__element:not(:last-child) {
     margin-right: 60px;
   }
-  .menu__link.current {
+  .menu__link.menu__link-current {
     color: var(--accent-color);
   }
 }
@@ -36,7 +36,7 @@
     color: var(--accent-color);
     outline: none;
   }
-  &.current::after {
+  &.menu__link-current::after {
     content: '';
     display: flex;
     width: 100%;
@@ -46,7 +46,7 @@
     position: absolute;
     margin-top: 28px;
   }
-  &.current {
+  &.menu__link-current {
     position: relative;
   }
 }

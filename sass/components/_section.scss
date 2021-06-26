@@ -1,12 +1,11 @@
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  &-title {
+  &__title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    &_distance {
-      margin-bottom: 50px;
-    }
+     margin-bottom: 50px;
+    
   }
 }

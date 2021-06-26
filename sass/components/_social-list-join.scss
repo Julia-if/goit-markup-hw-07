@@ -1,6 +1,9 @@
-.social-list-join {
+.footer-social {
+    margin-left: 70px;
+    &__list {
   display: flex;
-  &-link {
+}
+&__link {
     display: flex;
     width: 44px;
     height: 44px;
@@ -14,22 +17,17 @@
       background-color: var(--accent-color);
     }
   }
-  &-icon {
+  &__icon {
     width: 20px;
     height: 20px;
     fill: var(--color-hero-title);
     justify-content: center;
     align-items: center;
   }
-  &-item {
+  &__item {
     margin-right: 10px;
   }
-  &-container {
-    margin-left: 70px;
-  }
-}
-
-.join-title {
+  &__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -38,3 +36,15 @@
   color: var(--color-hero-title);
   margin-bottom: 20px;
 }
+
+  }
+
+
+
+  
+
+  
+  
+  
+
+

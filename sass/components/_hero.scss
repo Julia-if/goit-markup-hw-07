@@ -8,10 +8,9 @@
     ),
     url(../images/hero/bg.jpg);
   background-size: cover;
-  width: 1600px;
-  &__container {
-    margin: 0 auto;
-  }
+  max-width: 1600px;
+   margin: 0 auto;
+  
   &__title {
     font-weight: 900;
     font-size: 44px;
@@ -21,8 +20,6 @@
     text-transform: uppercase;
     color: var(--color-hero-title);
     width: 696px;
-  }
-  &__title_distance {
     margin: 0px auto 30px auto;
   }
 }

@@ -1,25 +1,19 @@
-.skills-list {
+.skills__list {
   display: flex;
-  &__distance {
-    margin-left: -30px;
-    margin-top: -30px;
+  margin-left: -30px;
+  margin-top: -30px;
   }
-  &__item {
+  .skills__item {
     flex-basis: calc((100% - 120px) / 4);
-    &_distance {
       margin-left: 30px;
       margin-top: 30px;
     }
-  }
-}
 
-.skills-icon-container {
+.skills__container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 120px;
   background-color: #f5f4fa;
-  &_distance {
-    margin-bottom: 30px;
-  }
+  margin-bottom: 30px;
 }

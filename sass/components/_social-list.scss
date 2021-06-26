@@ -1,13 +1,13 @@
-.social-list {
+.sociallist {
   display: flex;
   justify-content: space-between;
-  &-icon {
+  &__icon {
     width: 20px;
     height: 20px;
     fill: #afb1b8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  &-link {
+  &__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
     &:focus {
       background-color: var(--accent-color);
       outline: none;
-      .social-list-icon {
+      .sociallist__icon {
         fill: var(--color-hero-title);
         outline: none;
       }
